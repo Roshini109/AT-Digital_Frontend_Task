@@ -1,0 +1,61 @@
+.hero{
+    width: Fixed(1440px);
+    height: 700px;
+    position: relative;
+
+    .bc{
+        width: 100%;
+        height: 700px;
+        position: relative;
+
+    }
+
+    .caption{
+        width: Fixed(630px);
+        height: Hug(306px);
+        top: 354px;
+        left: 80px;
+        padding: 24px 40px 32px 40px;
+        gap: 20px;
+        background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%),
+                    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+        position: absolute;
+
+        p{
+            width: 556px;
+            height: 192px;
+            font-family: 'Inter', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            color: #FFFFFF;
+        }
+
+        button{
+            width: Hug (214px);
+            height: Hug (38px);
+            padding: 12px 20px 12px 20px;
+            border-radius: 4px;
+            gap: 8px;
+            background: #F28D35;
+            font-family: Inter;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 14px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            color: #FFFFFF;
+            border: none;
+            cursor: pointer;
+            margin-top: 30px;
+        }
+
+        button:hover{
+            background: #FFFFFF;
+            color: #F28D35;
+        }
+
+    }
+}
