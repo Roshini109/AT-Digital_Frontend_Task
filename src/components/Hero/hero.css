@@ -16,12 +16,11 @@
         top: 354px;
         left: 80px;
         padding: 24px 40px 32px 40px;
-        gap: 20px;
         background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%),
                     linear-gradient(0deg, #FFFFFF, #FFFFFF);
         position: absolute;
 
-        p{
+        .para1{
             width: 556px;
             height: 192px;
             font-family: 'Inter', sans-serif;
@@ -33,7 +32,7 @@
             color: #FFFFFF;
         }
 
-        button{
+        .consBtn{
             width: Hug (214px);
             height: Hug (38px);
             padding: 12px 20px 12px 20px;
@@ -49,13 +48,168 @@
             color: #FFFFFF;
             border: none;
             cursor: pointer;
-            margin-top: 30px;
+            margin-top: 20px;
         }
 
-        button:hover{
+        .consBtn:hover{
             background: #FFFFFF;
             color: #F28D35;
         }
 
     }
 }
+
+
+
+/* -------------------Web & Mobile app development------------------------ */
+    .devContainer{
+        width: Hug (1064px);
+        height: Hug (414px);
+        top: 934px;
+        left: 188px;
+        gap: 108px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+        .dcLeft{
+            width: 414px;
+            height: 414px;
+        }
+
+            .devText{
+                width: 542px;
+                height: Hug (187px);
+                gap: 20px;
+                text-align: left;
+            }
+
+                .devTitle{
+                    width: Hug (507px);
+                    height: Hug (33px);
+                    gap: 12px;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 27px;
+                    font-weight: 600;
+                    line-height: 33px;
+                    letter-spacing: 0.4000000059604645px;
+                    text-align: left;
+                    color: #6B3CC9;
+                    margin-bottom: 20px;
+
+                }
+                .devPara{
+                    width: 542px;
+                    height: 76px;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 19px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    margin-bottom: 20px;
+                }
+                .devBtn{
+                    background: #F28D35;
+                    color: #ffffff;
+                    width: Hug (129px);
+                    height: Hug (38px);
+                    padding: 12px 20px 12px 20px;
+                    border-radius: 4px;
+                    border: none;
+                    cursor: pointer;
+                    font-family: Inter;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 14px;
+                    letter-spacing: -0.02em;
+                    text-align: left;
+
+                }
+
+                .devBtn:hover{
+                    background: #edbe94;
+                    color: #9d612c;
+                }
+
+
+
+    /*----------------------Digital Strategy Consulting-----------------------*/
+    .consult{
+        width: Hug (1064px);
+        height: Hug (416px);
+        top: 1428px;
+        left: 188px;
+        gap: 108px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .conPara{
+        margin-bottom: 20px;
+        width: 542px;
+        height: 95px;
+        font-family: 'Inter', sans-serif;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+
+    /*--------------------------------footer-------------------------------------*/
+
+    .footer{
+        width: 1440px;
+        height: 324px;
+        top: 1944px;
+        padding: 40px 80px 20px 80px;
+        gap: 40px;
+        background: #6B3CC9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        justify-content: space-between;
+
+        .footerTop{
+            display: flex;
+            align-items: center;
+            width: Fill (1,280px);
+            height: Hug (199px);
+            justify-content: space-between;
+
+            .topLeft{
+                width: Fixed (413px);
+                height: Hug (102px);
+
+                img{
+                    width: 238.89px;
+                    height: 36.11px;
+                    top: -11.11px;
+                    margin-bottom: 20px;
+                }
+
+                p{
+                    width: 413px;
+                    height: 57px;
+                    font-family: 'Lato', sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 19px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #ffffff;
+                }
+            }
+
+        }
+        .footerBottom{}
+    }
