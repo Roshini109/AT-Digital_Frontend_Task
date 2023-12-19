@@ -1,5 +1,6 @@
 import React from 'react'
 import './hero.css'
+import { List } from '@mui/material'
 
 
 export default function Hero() {
@@ -54,10 +55,35 @@ export default function Hero() {
           <p>Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results.</p>
         </div>
         <div className="topRight">
-          
+          <div className="tech">
+            <p className='topic'>Our Technologies</p>
+            <ul className="list">
+              <li>ReactJS</li>
+              <li>Gatsby</li>
+              <li>NextJS</li>
+              <li>NodeJS</li>
+              <li>GraphQL</li>
+              <li>Laravel</li>
+            </ul>
+          </div>
+          <div className="services">
+          <p className='topic'>Our Services</p>
+            <ul className="list">
+              <li>Social Media Marketing</li>
+              <li>Web & Mobile App Development</li>
+              <li>Data & Analytics</li>
+              <li>Google Marketing Solutions</li>
+              <li>Search Engine Optimization</li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div className="footerBottom"></div>
+      <div className="footerBottom">
+        <div className="box">
+          <hr />
+          <span>Privacy Policy &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Terms & Conditions</span>
+        </div>
+      </div>
     </div>
 </>
   )

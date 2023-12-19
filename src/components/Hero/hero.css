@@ -171,29 +171,26 @@
         height: 324px;
         top: 1944px;
         padding: 40px 80px 20px 80px;
-        gap: 40px;
         background: #6B3CC9;
         display: flex;
         flex-direction: column;
-        align-items: center;
         position: absolute;
-        justify-content: space-between;
+        justify-content:space-around ;
 
         .footerTop{
             display: flex;
-            align-items: center;
-            width: Fill (1,280px);
+            width: Fill(1280px);
             height: Hug (199px);
-            justify-content: space-between;
+            margin-bottom: 40px;
 
             .topLeft{
                 width: Fixed (413px);
                 height: Hug (102px);
+                margin-right: 280px;
 
                 img{
                     width: 238.89px;
                     height: 36.11px;
-                    top: -11.11px;
                     margin-bottom: 20px;
                 }
 
@@ -210,6 +207,79 @@
                 }
             }
 
+            .topRight{
+                width: Hug (522px);
+                height: Hug (199px);
+                display: flex;
+                align-items: center;
+                align-items: flex-start;
+
+                .tech{
+                    width: Fixed(197px);
+                    height: Hug (199px);
+                    margin-right: 128px;
+                }
+
+                    .topic{
+                        font-family: 'Inter', sans-serif;
+                        font-size: 21px;
+                        font-weight: 600;
+                        line-height: 25px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        color: #ffffff;
+                        margin-bottom: 12px;
+                    }
+
+                    ul{
+                        list-style: none;
+                        color: #ffffff;
+                        width: Hug (60px);
+                        height: Hug (162px);
+
+                        li{
+                            margin-bottom: 12px;
+                        }
+                    }
+
+                .services{
+                    width: Fixed (197px);
+                    height: Hug (187px);
+
+                }
+
+            }
+
         }
-        .footerBottom{}
+        .footerBottom{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+
+            .box{
+                width: Fixed (630px);
+                height: Hug (25px);
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            hr{
+                margin-bottom: 8px;
+                width: 630px;
+                border: 1px solid white;
+            }
+
+            span{
+                font-family: 'Inter', sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 17px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #ffffff;
+            }
+
+        }
     }
