@@ -33,3 +33,13 @@
         }
     }
 }
+
+
+/*--------------------------------------Responsive------------------------------*/
+
+@media screen and (max-width:1200px){
+    .navbar{
+        width: Fixed(1200px);
+        padding: 26px 60px 26px 60px;
+    }
+}

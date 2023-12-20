@@ -283,3 +283,89 @@
 
         }
     }
+
+
+    /*---------------------------------Responsivenss---------------------------*/
+
+    @media screen and (max-width:1200px){
+        .hero{
+            width: Fixed(1200px);
+
+            .bc{
+                height: 763px;
+                width: 1200px;
+            }
+
+            .caption{
+                width: Fixed(622px);
+                height: Hug(306px);
+                left: 60px;
+            }
+        }
+
+        .devContainer{
+            width: Fixed (896px);
+            height: Hug (346px);
+            top: 857px;
+            left: 152px;
+        }
+
+        .dcLeft{
+            width: 346px;
+            height: 346px;
+        }
+
+        .devText{
+            width:530px;
+            height: Hug (187px);
+        }
+
+        .devPara{
+            width: 530px;
+            height: 76px;
+        }
+
+        .consult{
+            width: Fixed (896px);
+            height: Hug (348px);
+            top: 1283px;
+            left: 152px;
+        }
+
+        .conPara{
+            width: 530px;
+        }
+
+        .footer{
+            width: 1050px;
+            top: 1711px;
+            padding: 40px, 60px, 20px, 60px;
+
+            .footerTop{
+                width: Fill (1,080px);
+
+                .topLeft{
+                    width: Fixed (438px);
+                    margin-right: 100px;
+
+                p{
+                    width: 438px;
+                }
+
+                }
+
+                .topRight{
+                    width: Fill (530px);
+
+                    .tech{
+                        width: Fixed (255px);
+                    }
+
+                    .topic{
+
+                    }
+                }
+            }
+        }
+    }
+
